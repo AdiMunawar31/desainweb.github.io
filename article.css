@@ -1,0 +1,169 @@
+body {
+    font: 16px/28px arial, sans-serif ;
+    background-image: url(img/r.jpg);
+    background-size: cover;
+    color: #1f1c1c;
+}
+.container {
+    width: 1000px;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    overflow: auto;
+}
+.header{
+    padding: 20px;
+    background-color: rgb(39, 32, 32);
+    color: white;
+}
+.header h1 img{
+    margin-bottom: -15px;
+    width: 60px;
+    height: 60px;
+}
+.header .judul {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 40px;
+    font-size: 40px;
+}
+.header p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 40px;
+    font-size: 14px;
+}
+.header ul li {
+    display: inline-table;
+    margin-right: 15px;
+}
+.header a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 110, 255);
+    padding: 5px 15px;
+}
+.header a:hover {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(56, 156, 250);
+    
+}
+.jumbotron {
+    height: 400px;
+    background-image: url(img/1.jpg);
+    background-size: cover;
+    background-position: 0 -250px;
+    border-top: 3px solid rgb(23, 98, 209);
+    border-bottom: 3px solid rgb(209, 188, 0);
+    background-position: fixed;
+    background-attachment: fixed;
+}.content {
+    width: 600px;
+    padding: 20px 20px;
+    margin: auto;
+    float: left;
+}
+.content ul li {
+    display: inline-table;
+    margin-left: -35px;
+    margin-right: 40px;
+}
+.content a {
+    text-decoration: none;
+    color: white;
+    background-color: rgba(228, 53, 0, 0.945);
+    padding: 2px 4px;
+    font-size: 11px;
+}
+.content a:hover {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(184, 39, 39);
+}
+.content p a{
+    text-decoration: none;
+    color: rgb(0, 60, 255);
+    background-color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+.penulis {
+    float: left;
+    width: 300px;
+    padding: 20px 20px;
+}
+.penulis img {
+    width: 150px;
+    height: 150px;
+}
+.penulis a {
+    text-decoration: none;
+    color: rgb(0, 38, 255);
+}
+.footer {
+    width: 1003px;
+    height: 80px;
+    background-color: rgb(0, 0, 0);
+    margin: -30px auto;
+}
+.footer h5 {
+    text-align: center;
+    color: rgb(196, 195, 195);
+    padding-top: 30px;
+}
+.sosmed img {
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+}
+.sosmed h3 {
+    color: rgb(0, 60, 255);
+}
+.about {
+    width: 1000px;
+    background-color: #11111d;
+    overflow: auto;
+    color: rgb(141, 138, 129);
+}
+.a {
+    width: 450px;
+    float: left;
+    padding: 20px;
+    text-align: center;
+}
+.a img {
+    width: 260px;
+    height: 90px;  
+}.b {
+    width: 450px;
+    float: right;
+    padding: 20px;
+}
+.a a {
+    text-decoration: none;
+    color: rgba(226, 203, 0, 0.897);
+}
+.a a:hover {
+    text-decoration: none;
+    color: rgba(0, 90, 226, 0.801);
+}
+
+
+
+
+
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
